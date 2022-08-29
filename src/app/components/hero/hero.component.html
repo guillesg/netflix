@@ -1,0 +1,8 @@
+<h1>Películas mas vistas</h1>
+
+<div>
+    <div class="container" *ngFor="let topFilm of top.gallery">
+        <p>{{topFilm.number}}</p>
+        <img src="{{topFilm.src}}" alt="{{topFilm.alt}}">
+    </div>
+</div>
