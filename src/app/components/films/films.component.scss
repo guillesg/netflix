@@ -1,13 +1,19 @@
 .container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .img {
-   width: 250px;
-   height: 250px;
+  display: flex;
+  height: 300px;
+  width: 200px;
+  cursor: pointer;
+  margin: 34px 12px;
+  border-radius: 10px;
 }
 
 h2 {
-    color: white;
+  color: white;
+  font-family: Bebas Neue;
 }

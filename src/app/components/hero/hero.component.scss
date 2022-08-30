@@ -1,20 +1,30 @@
 div {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
 }
 
 .container {
-    img {
-        width: 150px;
-    }
+  img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+  }
 }
 
 h1 {
-    color: white;
+  color: white;
+  font-family: Bebas Neue;
 }
 
 p {
-    color: white;
-    font-size: 300px;
-    margin-right: 0;
+  -webkit-text-stroke: 4px rgb(78, 76, 76);
+  color: black;
+  font-size: 400px;
+  margin-right: 0;
+  position: relative;
+  top: -90px;
+  left: 50px;
 }

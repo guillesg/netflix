@@ -1,7 +1,7 @@
-<h2>{{films.title}}</h2>
+<h2>{{ films.title }}</h2>
 
 <div class="container">
-    <div *ngFor="let film of films.gallery">
-        <img class="img" src="{{film.src}}" alt="{{film.alt}}">
-    </div>
+  <div *ngFor="let film of films.gallery">
+    <img class="img" src="{{ film.src }}" alt="{{ film.alt }}" />
+  </div>
 </div>

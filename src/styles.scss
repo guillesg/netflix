@@ -1,8 +1,15 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    background: black;
+  background: rgb(37, 37, 37);
+  font-family: Bebas Neue;
 }
 
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("..//src/assets/fonts/BebasNeue-Regular.ttf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
