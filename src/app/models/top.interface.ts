@@ -1,9 +1,9 @@
 export interface TopImageInterface {
-    number: number;
-    src: string;
-    alt?: string;
+  number: number;
+  src: string;
+  alt?: string;
 }
 
 export interface TopGallery {
-    gallery: TopImageInterface[]
+  gallery: TopImageInterface[];
 }

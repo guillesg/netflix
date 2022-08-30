@@ -1,5 +1,5 @@
 nav {
-  margin: 20px;
+  margin: auto;
   background-color: rgb(37, 37, 37);
   display: flex;
   justify-content: space-between;
@@ -8,10 +8,14 @@ nav {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
     ol {
       a {
         text-decoration: none;
         color: white;
+        font-size: 2em;
+        
       }
     }
   }

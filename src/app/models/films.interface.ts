@@ -1,9 +1,9 @@
 export interface ImageInterface {
-    src: string,
-    alt?: string;
+  src: string;
+  alt?: string;
 }
 
 export interface FilmsInterface {
-    title: string;
-    gallery: ImageInterface[];
+  title: string;
+  gallery: ImageInterface[];
 }
